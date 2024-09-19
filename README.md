@@ -14,8 +14,6 @@
 <h2>Important Notice</h2>
 <p>This repository is structured to offer a clear understanding of the project components. However, if you wish to run the model, you should download and execute the <strong>FFA_NET_with_EA_and_PR.ipynb</strong> file available in this repository. For the trained model's weights and parameters, you can download the <strong>FFA_model.pth</strong> file from the repository. For further details and to run the notebook, please refer to my Kaggle page.</p>
 
-<h2>Project Structure</h2>
-
 <h3>Architecture</h3>
 <p>The FFA-Net model consists of the following key components:</p>
 <ul>
@@ -274,6 +272,12 @@ Traditional attention mechanisms do not adaptively refine attention weights over
 The original FFA-Net model includes 12 blocks per group. In this modified version, the architecture uses 5 blocks per group to reduce computational requirements. Despite this reduction, the modified model achieves comparable SSIM values and close PSNR values to the original model.
 
 ### Results
+<p align="center">
+  <img src="results/resimg1.jpg" alt="Haze vs Dehaze Image 1" width="400">
+  <img src="results/resimg2.jpg" alt="Haze vs Dehaze Image 2" width="400">
+  <img src="results/resimg3.jpg" alt="Haze vs Dehaze Image 3" width="400">
+</p>
+
 
 **Training Loss:**
 <ul>
