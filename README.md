@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>FFA-Net Project with Enhanced Attention and Progressive Refinement</h1>
+<h1>FFA-Net Project with Enhanced Attention and Progressive Attention Refinement</h1>
 
 <h2>Overview</h2>
 <p>Welcome to the FFA-Net Project repository. This project contains the implementation of the FFA-Net model with enhancements including Efficient Attention (EA) and Progressive Attention Refinement (PAR). This repository is designed to provide a comprehensive understanding of the FFA-Net architecture and the novel modifications made. Please note that due to computational constraints, the model was trained from scratch using Kaggle's GPU resources. As a result, this repository cannot be cloned and used directly for training.</p>
